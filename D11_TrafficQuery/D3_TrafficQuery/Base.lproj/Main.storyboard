@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="D3_TrafficQuery" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xpC-gE-mtW">
+                                <rect key="frame" x="16" y="50" width="568" height="550"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入城市名" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="iaf-To-SQ0">
+                                <rect key="frame" x="16" y="20" width="261" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入公交线路" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LSl-Uy-9Yt">
+                                <rect key="frame" x="286" y="20" width="260" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WD-aD-SkZ">
+                                <rect key="frame" x="554" y="24" width="30" height="22"/>
+                                <state key="normal" title="确定">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressOK:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j4G-qd-VoH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="xpC-gE-mtW" secondAttribute="trailing" id="8gP-Fa-Wgm"/>
+                            <constraint firstItem="xpC-gE-mtW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9n3-6o-hpa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LSl-Uy-9Yt" secondAttribute="trailing" constant="38" id="CaW-mI-tmx"/>
+                            <constraint firstItem="iaf-To-SQ0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Cid-0B-a3f"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xpC-gE-mtW" secondAttribute="bottom" id="Mvk-CF-xf2"/>
+                            <constraint firstItem="9WD-aD-SkZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="4" id="P7r-d0-SXR"/>
+                            <constraint firstItem="xpC-gE-mtW" firstAttribute="top" secondItem="9WD-aD-SkZ" secondAttribute="bottom" constant="4" id="aCK-WE-89N"/>
+                            <constraint firstItem="9WD-aD-SkZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bGD-Y7-ZeI"/>
+                            <constraint firstItem="LSl-Uy-9Yt" firstAttribute="leading" secondItem="iaf-To-SQ0" secondAttribute="trailing" constant="9" id="hNV-Av-srE"/>
+                            <constraint firstItem="LSl-Uy-9Yt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hsO-ED-6XU"/>
+                            <constraint firstItem="iaf-To-SQ0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="lzn-4j-XaA"/>
+                            <constraint firstItem="xpC-gE-mtW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="nCR-Kj-xMK"/>
+                            <constraint firstItem="LSl-Uy-9Yt" firstAttribute="width" secondItem="iaf-To-SQ0" secondAttribute="width" id="nnL-z3-whJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityField" destination="iaf-To-SQ0" id="bFb-Gr-Vi3"/>
+                        <outlet property="lineName" destination="LSl-Uy-9Yt" id="ZQ7-9I-tfk"/>
+                        <outlet property="mapView" destination="xpC-gE-mtW" id="p0R-e3-ziN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
