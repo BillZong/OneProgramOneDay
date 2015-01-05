@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57734AAA1A59987600C1FD5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57734AA91A59987600C1FD5E /* AppDelegate.swift */; };
+		57734AAC1A59987600C1FD5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57734AAB1A59987600C1FD5E /* ViewController.swift */; };
+		57734AAF1A59987600C1FD5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57734AAD1A59987600C1FD5E /* Main.storyboard */; };
+		57734AB11A59987600C1FD5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57734AB01A59987600C1FD5E /* Images.xcassets */; };
+		57734AB41A59987600C1FD5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57734AB21A59987600C1FD5E /* LaunchScreen.xib */; };
+		57734AC01A59987700C1FD5E /* WeSendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57734ABF1A59987700C1FD5E /* WeSendTests.swift */; };
+		57734ACD1A59994400C1FD5E /* buddyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57734ACC1A59994400C1FD5E /* buddyListTableViewController.swift */; };
+		57734ACF1A59998900C1FD5E /* WSMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57734ACE1A59998900C1FD5E /* WSMessage.swift */; };
+		57734AD11A599A0300C1FD5E /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57734AD01A599A0300C1FD5E /* loginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57734ABA1A59987600C1FD5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57734A9C1A59987600C1FD5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57734AA31A59987600C1FD5E;
+			remoteInfo = WeSend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57734AA41A59987600C1FD5E /* WeSend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57734AA81A59987600C1FD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57734AA91A59987600C1FD5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57734AAB1A59987600C1FD5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57734AAE1A59987600C1FD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57734AB01A59987600C1FD5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57734AB31A59987600C1FD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57734AB91A59987600C1FD5E /* WeSendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57734ABE1A59987700C1FD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57734ABF1A59987700C1FD5E /* WeSendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSendTests.swift; sourceTree = "<group>"; };
+		57734ACC1A59994400C1FD5E /* buddyListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buddyListTableViewController.swift; sourceTree = "<group>"; };
+		57734ACE1A59998900C1FD5E /* WSMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSMessage.swift; sourceTree = "<group>"; };
+		57734AD01A599A0300C1FD5E /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57734AA11A59987600C1FD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57734AB61A59987600C1FD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57734A9B1A59987600C1FD5E = {
+			isa = PBXGroup;
+			children = (
+				57734AA61A59987600C1FD5E /* WeSend */,
+				57734ABC1A59987700C1FD5E /* WeSendTests */,
+				57734AA51A59987600C1FD5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57734AA51A59987600C1FD5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57734AA41A59987600C1FD5E /* WeSend.app */,
+				57734AB91A59987600C1FD5E /* WeSendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57734AA61A59987600C1FD5E /* WeSend */ = {
+			isa = PBXGroup;
+			children = (
+				57734ACB1A59992000C1FD5E /* Controller */,
+				57734ACA1A59991B00C1FD5E /* View */,
+				57734AC91A59991600C1FD5E /* Modal */,
+				57734AA71A59987600C1FD5E /* Supporting Files */,
+			);
+			path = WeSend;
+			sourceTree = "<group>";
+		};
+		57734AA71A59987600C1FD5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57734AA91A59987600C1FD5E /* AppDelegate.swift */,
+				57734AAD1A59987600C1FD5E /* Main.storyboard */,
+				57734AB01A59987600C1FD5E /* Images.xcassets */,
+				57734AB21A59987600C1FD5E /* LaunchScreen.xib */,
+				57734AA81A59987600C1FD5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57734ABC1A59987700C1FD5E /* WeSendTests */ = {
+			isa = PBXGroup;
+			children = (
+				57734ABF1A59987700C1FD5E /* WeSendTests.swift */,
+				57734ABD1A59987700C1FD5E /* Supporting Files */,
+			);
+			path = WeSendTests;
+			sourceTree = "<group>";
+		};
+		57734ABD1A59987700C1FD5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57734ABE1A59987700C1FD5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57734AC91A59991600C1FD5E /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				57734ACE1A59998900C1FD5E /* WSMessage.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		57734ACA1A59991B00C1FD5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		57734ACB1A59992000C1FD5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57734AAB1A59987600C1FD5E /* ViewController.swift */,
+				57734ACC1A59994400C1FD5E /* buddyListTableViewController.swift */,
+				57734AD01A599A0300C1FD5E /* loginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57734AA31A59987600C1FD5E /* WeSend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57734AC31A59987700C1FD5E /* Build configuration list for PBXNativeTarget "WeSend" */;
+			buildPhases = (
+				57734AA01A59987600C1FD5E /* Sources */,
+				57734AA11A59987600C1FD5E /* Frameworks */,
+				57734AA21A59987600C1FD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeSend;
+			productName = WeSend;
+			productReference = 57734AA41A59987600C1FD5E /* WeSend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57734AB81A59987600C1FD5E /* WeSendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57734AC61A59987700C1FD5E /* Build configuration list for PBXNativeTarget "WeSendTests" */;
+			buildPhases = (
+				57734AB51A59987600C1FD5E /* Sources */,
+				57734AB61A59987600C1FD5E /* Frameworks */,
+				57734AB71A59987600C1FD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57734ABB1A59987600C1FD5E /* PBXTargetDependency */,
+			);
+			name = WeSendTests;
+			productName = WeSendTests;
+			productReference = 57734AB91A59987600C1FD5E /* WeSendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57734A9C1A59987600C1FD5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = BillZong;
+				TargetAttributes = {
+					57734AA31A59987600C1FD5E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					57734AB81A59987600C1FD5E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 57734AA31A59987600C1FD5E;
+					};
+				};
+			};
+			buildConfigurationList = 57734A9F1A59987600C1FD5E /* Build configuration list for PBXProject "WeSend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57734A9B1A59987600C1FD5E;
+			productRefGroup = 57734AA51A59987600C1FD5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57734AA31A59987600C1FD5E /* WeSend */,
+				57734AB81A59987600C1FD5E /* WeSendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57734AA21A59987600C1FD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57734AAF1A59987600C1FD5E /* Main.storyboard in Resources */,
+				57734AB41A59987600C1FD5E /* LaunchScreen.xib in Resources */,
+				57734AB11A59987600C1FD5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57734AB71A59987600C1FD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57734AA01A59987600C1FD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57734AAC1A59987600C1FD5E /* ViewController.swift in Sources */,
+				57734ACF1A59998900C1FD5E /* WSMessage.swift in Sources */,
+				57734ACD1A59994400C1FD5E /* buddyListTableViewController.swift in Sources */,
+				57734AAA1A59987600C1FD5E /* AppDelegate.swift in Sources */,
+				57734AD11A599A0300C1FD5E /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57734AB51A59987600C1FD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57734AC01A59987700C1FD5E /* WeSendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57734ABB1A59987600C1FD5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57734AA31A59987600C1FD5E /* WeSend */;
+			targetProxy = 57734ABA1A59987600C1FD5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57734AAD1A59987600C1FD5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57734AAE1A59987600C1FD5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57734AB21A59987600C1FD5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57734AB31A59987600C1FD5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57734AC11A59987700C1FD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57734AC21A59987700C1FD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57734AC41A59987700C1FD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeSend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57734AC51A59987700C1FD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeSend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57734AC71A59987700C1FD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeSendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSend.app/WeSend";
+			};
+			name = Debug;
+		};
+		57734AC81A59987700C1FD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeSendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSend.app/WeSend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57734A9F1A59987600C1FD5E /* Build configuration list for PBXProject "WeSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57734AC11A59987700C1FD5E /* Debug */,
+				57734AC21A59987700C1FD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57734AC31A59987700C1FD5E /* Build configuration list for PBXNativeTarget "WeSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57734AC41A59987700C1FD5E /* Debug */,
+				57734AC51A59987700C1FD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57734AC61A59987700C1FD5E /* Build configuration list for PBXNativeTarget "WeSendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57734AC71A59987700C1FD5E /* Debug */,
+				57734AC81A59987700C1FD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57734A9C1A59987600C1FD5E /* Project object */;
+}
